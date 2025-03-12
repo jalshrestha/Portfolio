@@ -210,11 +210,7 @@ button {
 }
 
 .skills__item {
-<<<<<<< HEAD
     opacity: 1;
-=======
-    opacity: 0;
->>>>>>> 3af126c7ac59d74962a00626404b15b8910969c7
     position: relative;
     display: flex;
     flex-direction: column;
@@ -229,7 +225,6 @@ button {
     border-radius: 10px;
     background-origin: border-box;
     background-clip: content-box, border-box;
-<<<<<<< HEAD
     transition: transform 0.3s ease, opacity 1.2s, box-shadow 0.3s ease;
     overflow: hidden;
     cursor: pointer;
@@ -247,10 +242,6 @@ button {
 
 .skills__item:hover img {
     transform: scale(1.2);
-=======
-    transition: transform 0.2s, opacity 1.2s;
-    overflow: hidden;
->>>>>>> 3af126c7ac59d74962a00626404b15b8910969c7
 }
 
 @media (max-width: 1500px) {
