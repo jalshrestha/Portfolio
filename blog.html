@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Jaljala | Blog</title>
+    <link rel="icon" href="hero.jpg?v=2">
+    <script defer="defer" src="main.a434f8dfd607a35d7cdd.js"></script>
+    <link href="main.a0ef648aaae13a2d3ab7.css" rel="stylesheet">
+    <link href="custom-styles.css" rel="stylesheet">
+    <link href="blog-styles.css" rel="stylesheet">
+    <link href="nav-styles.css" rel="stylesheet">
+</head>
+<body id="top">
+    <nav class="navigation-bar fixed-nav">
+        <ul class="navigation">
+            <li class="navigation__item" id="nav-hero"><a href="index.html#hero">Home</a></li>
+            <li class="navigation__item" id="nav-about"><a href="index.html#about">About</a></li>
+            <li class="navigation__item" id="nav-projects"><a href="index.html#projects">Projects</a></li>
+            <li class="navigation__item navigation__item--active" id="nav-blog"><a href="blog.html">Blog</a></li>
+            <li class="navigation__item" id="nav-contact"><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div id="particles-js" class="particles-js"></div>
+    
+    <section class="blog-posts" id="blog-posts">
+        <h2 class="blog-posts__heading section-heading">Blog Posts</h2>
+        
+        <div class="blog-grid">
+            <!-- Single Blog Post -->
+            <div class="blog-card single-post">
+                <a href="blog-post-1.html">
+                    <div class="blog-card__image-container">
+                        <img src="imgs/Consciousness.webp" alt="The Intersection of Physics, AI, Trading, and Consciousness">
+                    </div>
+                    <div class="blog-card__content">
+                        <h3 class="blog-card__title">The Intersection of Physics, AI, Trading, and Consciousness: A Journey into the Future</h3>
+                        <div class="blog-card__meta">
+                            <span class="blog-card__date">Mar 11, 2024</span>
+                            <span class="blog-card__time">10 min read</span>
+                        </div>
+                        <div class="blog-card__tags">
+                            <span class="blog-card__tag">Physics</span>
+                            <span class="blog-card__tag">AI</span>
+                            <span class="blog-card__tag">Trading</span>
+                            <span class="blog-card__tag">Consciousness</span>
+                        </div>
+                        <p class="blog-card__excerpt">Have you ever wondered how the fundamental laws of the universe could lead to the creation of machines that think like humans? Or how these machines might one day predict the stock market's next move with uncanny accuracy?...</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <a href="#top">
+            <div class="return-home">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24">
+                    <title></title>
+                    <path fill="#fafafa" d="M17.707 10.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414zM17.707 17.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z"></path>
+                </svg>
+            </div>
+        </a>
+        <div class="socials">
+            <a href="https://github.com/jalshrestha" target="_blank">
+                <div class="socials__github">
+                    <img src="imgs/github-logo.d03ce87cf6b5a432c44f847eefec1204.png" alt=""/>
+                </div>
+            </a>
+            <a href="mailto:jaljalalama56@gmail.com" target="_blank">
+                <div class="socials__email">
+                    <img src="imgs/mail.4f2db89278f9ad3abef627211b414574.png" alt=""/>
+                </div>
+            </a>
+        </div>
+        <p class="copyright">Jaljala ©2024</p>
+    </footer>
+    
+    <!-- Particles.js for animated background -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            particlesJS("particles-js", {
+                "particles": {
+                    "number": {
+                        "value": 80,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": ["#00BFFF", "#FF4040", "#6A0DAD"]
+                    },
+                    "shape": {
+                        "type": "circle",
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": true,
+                    },
+                    "size": {
+                        "value": 2,
+                        "random": true,
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#6A0DAD",
+                        "opacity": 0.2,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 1,
+                        "direction": "none",
+                        "random": true,
+                        "straight": false,
+                        "out_mode": "out",
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "bubble"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "bubble": {
+                            "distance": 150,
+                            "size": 4,
+                            "duration": 2,
+                            "opacity": 0.8,
+                            "speed": 3
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        }
+                    }
+                },
+                "retina_detect": true
+            });
+        });
+    </script>
+</body>
+</html> 
